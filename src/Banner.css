@@ -1,0 +1,61 @@
+.banner {
+    height: 448px;
+    position: relative;
+    color: white;
+    object-fit: contain;
+    @media (max-width: 1100px) {
+        background: none;
+    }
+}
+
+.benner__contents {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+
+.benner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.benner--fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(5, 5, 5, 0.61), #111);
+}
+
+.benner__button {
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px 10px 50px 10px ;
+    padding: 8px 17px;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    background-color: rgba(36, 36, 36, 0.911);
+    padding-bottom: 0.5rem;
+    box-shadow: 0px 0px 1px 1px #ffffff96;
+    outline: none;
+}
+.benner__button:hover {
+    background: #fff;
+    color: #111;
+    box-shadow: 0px 0px 1px 1px #000000f5;
+    transition: all 0.5s;
+}
+.benner__button:focus {
+    background: #f40612;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.benner__description {
+    font-size: 20px;
+    text-align: left;
+    margin-right: 200px;
+}
+
+/* f81980ff410e46f422d64ddf3a56dddd */
